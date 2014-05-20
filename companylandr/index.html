@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title></title>
+	<link rel="shortcut icon" href="">
+	<meta name="description" content="">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!--[if lte IE 7]><script src="js/lte-ie7.js"></script><![endif]-->
+	<script>
+   $(document).ready(function() {
+   $("#videoplayer").click(function(e) {
+   e.preventDefault();
+   $("#videoplayer").html('<iframe src="http://www.youtube.com/embed/CcOCLhccdmc?hd=1&vq=hd720&autoplay=1" width="853" height="480" frameborder="10" autoplay="1" modestbranding="1" showinfo="1" theme="light" autohide="2" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+  });
+});
+</script>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="menu-static" id="home">
+
+<!-- MENU -->
+<a class="logo-top show-phone" href="http://www.neighbourly.com"></a>
+<div class="menu-bg">
+	<div class="row">
+		<div class="grid_12 menu">
+			<a class="logo hide-phone" href="http://www.neighbourly.com"></a>
+			<div class="menu-mobile">
+				<div class="menu-button icon-menu-2 show-phone"></div>
+				<ul class="menu-links">
+					<li><a href="javascript:void(0)" onClick="goToByScroll('Tour')">Tour</a></li>
+					<li><a href="javascript:void(0)" onClick="goToByScroll('pricing')">Pricing</a></li>
+					<li><a href="javascript:void(0)" onClick="goToByScroll('team')">Team</a></li>
+					<li><a href="javascript:void(0)" onClick="goToByScroll('resources')">Resources</a></li>
+				</ul>
+				<ul>
+					<li><a class="button-start" href="javascript:void(0)" onClick="goToByScroll('free')">Start your free trial</a></li>
+				</ul>
+			</div>
+			<div class="menu-right">
+				<!-- <a Class="menu-social icon-dribbble" href="http://dribbble.com/nbryluk"></a> --!>
+				<a class="menu-social icon-facebook" href="https://www.facebook.com/nbrlyuk"></a>
+				<a class="menu-social icon-twitter" href="http://twitter.com/nbrlyuk"></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /MENU -->
+
+<!-- SLIDER -->
+<div class="video-bg" id="video header">
+	<div class="video header">
+		<div id="videoplayer">
+    <a href><span class="custom-image"><img src="images/video-still.jpg" title=""></a>
+</div>
+	</div>
+</div>
+<!-- /SLIDER -->
+
+<!-- ICON BOXES -->
+<div class="icon-boxes-bg">
+	<div class="row">
+		<div class="grid_4 icon-box">
+			<a href="#"><span class="custom-image"><img src="images/icon1.png" title=""></span></a>
+			<h4><a href="javascript:void(0)" onClick="goToByScroll('Tour')">Search</a></h4>
+			<p>See where your help is needed</p>
+		</div>
+		<div class="grid_4 icon-box">
+			<a href="#"><span class="custom-image"><img src="images/icon2.png" title=""></span></a>
+			<h4><a href="javascript:void(0)" onClick="goToByScroll('select')">Back</a></h4>
+			<p>Select projects that mean something to your company</p>
+		</div>
+		<div class="grid_4 icon-box">
+			<a href="#"><span class="custom-image"><img src="images/icon3.png" title=""></span></a>
+			<h4><a href="javascript:void(0)" onClick="goToByScroll('improve')">Grow</a></h4>
+			<p>Make a measurable impact on your business</p>
+		</div>
+	</div>
+</div>
+<!-- /ICON BOXES -->
+
+<!-- TEXT + BUTTON -->
+<div class="text-button-bg">
+	<div class="row">
+		<div class="grid_9 text-button">
+			<p></p>
+		</div><div class="grid_13 text-button">
+			<a class="btn-text" href="#openModal">Start your free trial</a>
+		</div>
+	</div>
+</div>
+<!-- /TEXT + BUTTON -->
+
+<!-- MODAL -->
+<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h2>Get started</h2>
+		<input type="email" required="" placeholder="Enter your e-mail here" name="email">
+		<p>Description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+		<p>Description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+		<p>Description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+		<button class="submit" type="submit" name="subscribe">Send</button>
+	</div>
+	
+</div>
+<!-- MODAL -->
+
+<!-- PRODUCT BOX #1 -->
+<div class="product-box-bg" id="Tour">
+	<div class="row">
+		<div class="grid_6 product-box product-box-text" align="right">
+			<h3>Find your perfect project</h3>
+			<p>Find and follow projects where you can make the greatest difference.<br><br>
+			<b>neighbourly</b> ranks results and delivers projects catered to you and your business.</p>
+		</div><div class="grid_6 product-box">
+			<iframe src="http://player.vimeo.com/video/43457382?title=1&amp;byline=0&amp;portrait=0&amp;color=146285" width="560" height="320" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
+<!-- /PRODUCT BOX #1 -->
+
+<!-- PRODUCT BOX #2 -->
+<div class="product-box2-bg" id="select">
+	<div class="row">
+		<div class="grid_6 product-box2">
+			<img src="images/product.png" title="">
+		</div><div class="grid_6 product-box2 product-box2-text">
+			<h3>Create stories that stick</h3>
+			<p>You own the outcome of project adoption. Work with the project to tell your story together and create <b> enduring content</b>.<br><br><b>neighbourly</b> lets you host all of your good stories in one place.</p>
+		</div>
+	</div>
+</div>
+<!-- /PRODUCT BOX #2 -->
+
+<!-- PRODUCT BOX #3 -->
+<div class="product-box-bg">
+	<div class="row">
+		<div class="grid_6 product-box product-box-text" align="right">
+			<h3>Get your staff involved</h3>
+			<p>Your staff can find local projects that mean something to them.<br><br>Empowered employees are engaged employees. Give them the power to choose projects that have greater meaning.</p>
+		</div><div class="grid_6 product-box">
+			<img src="images/product-3.png" title="">
+		</div>
+	</div>
+</div>
+<!-- /PRODUCT BOX #3 -->
+
+<!-- PRODUCT BOX #4 -->
+<div class="product-box-bg" id="improve">
+	<div class="row">
+		<div class="grid_6 product-box">
+			<img src="images/product-2.png" title="">
+		</div><div class="grid_6 product-box product-box-text">
+			<h3>Discover the ROI of community engagement</h3>
+			<p>Our tools help you measure your neighbourlyness by providing insights on engagement, reputation and social sharing.<br><br>Get the data you need to do well and do more.</p>
+		</div>
+	</div>
+</div>
+<!-- /PRODUCT BOX #4 -->
+
+<!-- PRICE TABLE -->
+<div class="price_table-bg" id="pricing">
+	<h3>Pricing</h3>
+	<div class="row price_table">
+		<div class="grid_8 offset_2">
+		</div>
+		<div class="row">
+			<div class="table grid_4">
+				<h4 class="table-1">Village  <span class="icon-leaf"></h4>
+				<div class="price"><sup>$</sup>5</div>
+				<div class="option">per month</div>
+				<p>Description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+				<ul class="table-1">
+					<li>1 Member</li>
+					<li>10GB Storage</li>
+					<li>Single Device</li>
+					<li>Weekly Backups</li>
+				</ul>
+				<div class="action-button"><a href="">Start</a></div>
+			</div>
+			<div class="table grid_4">
+				<h4 class="table-2">Town  <span class="icon-home-3"></h4>
+				<div class="price"><sup>$</sup>25</div>
+				<div class="option">per month</div>
+				<p>Description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+				<ul class="table-2">
+					<li>5 Members</li>
+					<li>100GB Storage</li>
+					<li>Single Device</li>
+					<li>Daily Backups</li>
+					<li>Analytics package</li>
+				</ul>
+				<div class="action-button"><a href="">Start</a></div>
+			</div>
+			<div class="table grid_4">
+				<h4 class="table-3">City  <span class="icon-office"></h4>
+				<div class="price"><sup>$</sup>50</div>
+				<div class="option">per month</div>
+				<p>Description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+				<ul class="table-3">
+					<li>25 Members</li>
+					<li>2TB Storage</li>
+					<li>Multiple Devices</li>
+					<li>Daily Backups</li>
+				</ul>
+				<div class="action-button"><a href="">Start</a></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /PRICE TABLE -->
+
+<!-- CLIENTS -->
+<div class="clients-bg">
+	<h3>Other companies that started on a free trial</h3>
+	<div class="row clients">
+		<ul>
+			<li class="grid_3"><a href="http://www.marksandspencer.com"><img src="images/client-1.png"></a></li><!--
+			--><li class="grid_3"><a href="http://www.carphonewarehouse.com"><img src="images/client-2.png"></a></li><!--
+			--><li class="grid_3"><a href="http://www.starbucks.co.uk/responsibility"><img src="images/client-3.png"></a></li><!--
+			-->
+		</ul>
+	</div>
+</div>
+<!-- /CLIENTS -->
+
+<!-- TESTIMONIALS -->
+<div class="testimonials-bg" id="testimonials">
+	<h3>Happy Customers</h3>
+	<div class="row testimonials">
+		<div class="grid_4 testimonial">
+			<span class="bubble"><span>Neighbourly was great for us! We got the funding we needed for our project just by getting our community involved.</span></span>
+			<p>Nikki Tams<br><b>Churchill Pre School</b></p>
+		</div><!--
+		--><div class="grid_4 testimonial">
+			<span class="bubble"><span>Neighbourly is an excellent resource to help companies and voluntary organisations partner on the causes that matter most.</span></span>
+			<p>Ian Cantoni<br><b>The Hop Skip and Jump Foundation</b></p>
+		</div><!--
+		--><div class="grid_4 testimonial">
+			<span class="bubble"><span>Neighbourly is a fantastic opportunity for businesses to get involved with grass-routes community initiatives.</span></span>
+			<p>Mike Plows<br><b>B&NES</b></p>
+		</div>
+	</div>
+</div>
+<!-- /TESTIMONIALS -->
+
+<!-- TEAM -->
+<div class="team-bg" id="team">
+	<h3>Meet the team</h3>
+	<div class="row team">
+		<div class="grid_8 offset_2">
+			<p><b>neighbourly</b> is a small independent company created by Nick Davies and launched in October 2013. Nick realised that companies would do more if it were easier to reach out to their local communities and set about creating <b>neighbourly</b>.</p>
+		</div>
+	</div>
+	<div class="row team">
+		<!-- MEMBER -->
+		<div class="grid_3 member">
+			<div class="person-img" style="background-image: url('images/team-1.jpg');"></div>
+			<h5>Nick Davies</h5>
+			<p>Founder & CEO</p>
+			<div class="team-social">
+				<a href="mailto:nick.davies@neighbourly.com" class="icon-mail-2"></a>
+				<a href="https://twitter.com/NickSDavies" class="icon-twitter"></a>
+				<a href="http://www.linkedin.com/in/nckdvs" class="icon-linkedin"></a>
+			</div>
+		</div><!--
+		--><div class="grid_3 member">
+			<div class="person-img" style="background-image: url('images/team-2.jpg');"></div>
+			<h5>Zoe Colosimo</h5>
+			<p>COO</p>
+			<div class="team-social">
+				<a href="mailto:zoe.colosimo@neighbourly.com" class="icon-mail-2"></a>
+				<a href="https://twitter.com/ZoeColosimo" class="icon-twitter"></a>
+				<a href="http://www.linkedin.com/profile/view?id=80911147" class="icon-linkedin"></a>
+			</div>
+		</div><!--
+		--><div class="grid_3 member">
+			<div class="person-img" style="background-image: url('images/team-3.jpg');"></div>
+			<h5>Jane Halstead</h5>
+			<p>Community Manager</p>
+			<div class="team-social">
+				<a href="mailto:jane.halstead@neighbourly.com" class="icon-mail-2"></a>
+				<a href="https://twitter.com/JaneHalstead1" class="icon-twitter"></a>
+				<a href="http://www.linkedin.com/profile/view?id=297874620" class="icon-linkedin"></a>
+			</div>
+		</div><!--
+		--><div class="grid_3 member">
+			<div class="person-img" style="background-image: url('images/team-4.jpg');"></div>
+			<h5>Simon Ponsford</h5>
+			<p>CTO</p>
+			<div class="team-social">
+				<a href="mailto:simon.ponsford@neighbourly.com" class="icon-mail-2"></a>
+				<a href="http://www.linkedin.com/profile/view?id=1393361" class="icon-linkedin"></a>
+			</div>
+		</div>
+	</div>
+	<div class="row team">
+		<!-- MEMBER -->
+		<div class="grid_3 member">
+			<div class="person-img" style="background-image: url('images/team-5.jpg');"></div>
+			<h5>Ryan Seville</h5>
+			<p>Content Lead</p>
+			<div class="team-social">
+				<a href="mailto:ryan.seville@neighbourly.com" class="icon-mail-2"></a>
+				<a href="https://twitter.com/ryan_seville" class="icon-twitter"></a>
+			</div>
+		</div><!--
+		--><div class="grid_3 member">
+			<div class="person-img" style="background-image: url('images/team-6.jpg');"></div>
+			<h5>Sumit Maitra</h5>
+			<p>Senior Developer</p>
+			<div class="team-social">
+				<a href="mailto:sumit.maitra@neighbourly.com" class="icon-mail-2"></a>
+				<a href="https://twitter.com/sumitkm" class="icon-twitter"></a>
+				<a href="http://www.linkedin.com/profile/view?id=30903706" class="icon-linkedin"></a>
+			</div>
+		</div><!--
+		--><div class="grid_3 member">
+			<div class="person-img" style="background-image: url('images/team-7.jpg');"></div>
+			<h5>Kevin Fairs</h5>
+			<p>Senior Developer</p>
+			<div class="team-social">
+				<a href="mailto:kevin.fairs@neighbourly.com" class="icon-mail-2"></a>
+				<a href="http://www.linkedin.com/profile/view?id=4291676" class="icon-linkedin"></a>
+			</div>
+		</div><!--
+		--><div class="grid_3 member">
+			<div class="person-img" style="background-image: url('images/team-8.jpg');"></div>
+			<h5>Christian Day</h5>
+			<p>Acting design lead</p>
+			<div class="team-social">
+				<a href="mailto:christian.day@neighbourly.com" class="icon-mail-2"></a>
+				<a href="http://www.linkedin.com/profile/view?id=74129384" class="icon-linkedin"></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /TEAM -->
+
+<!-- FOOTER -->
+<div class="footer-bg">
+	<div class="row footer">
+		<div class="grid_3 footer-col">
+			<h4>Contact Us</h4>
+			<p>neighbourly LTD<br>The Engine Shed<br>Station Approach<br>Bristol<br>BS1 6QH<br>UK</p>
+			<p>+44 (0)1179 151278</p>
+			<p>Company no. 08293976</p>
+			<p><a href="mailto:hello@neighbourly.com">hello@neighbourly.com</a></p>
+		</div>
+		<div class="grid_9 footer-col">
+			<h4>FAQ</h4>
+			<h5>How safe is my data?</h5>
+			<p>Very. We take data protection very seriously and confidential information cannot be intercepted. We will never sell or share your private information with third parties no matter how inviting the party looks.</p>
+			<h5>What happens after the free trial ends?</h5>
+			<p>We'll be good friends by then and we'll contact you to arrange payment - you will incur no costs without your approval.</p>
+			<h5>What commitment am I making?</h5>
+			<p>You only use your pledge when you find projects that suit your ambitions. <b>neighbourly</b> does not hold your money and you can change your pledge at any time via the dashboard.</p>
+			<br>
+			<a href="http://www.neighbourly.com/FAQ">READ MORE</a>
+		</div>
+	</div>
+</div>
+<!-- /FOOTER -->
+
+<!-- TWITTER -->
+<div class="twitter-bg">
+	<h3><span class="icon-twitter"></span>Latest Tweets</h3>
+	<div class="row twitter">
+		<div id="ticker" class="grid_12 twitter-feed">
+			
+		</div>
+	</div>
+</div>
+<!-- /TWITTER -->
+
+<!-- SUBSCRIBE BOX -->
+<div class="subscribe-bg" id="free">
+	<h3>Go ahead. <br>Do well by doing more.</h3>
+	<div class="row team">
+		<div class="grid_8 offset_2">
+			<form action="" method="post" name="subscribeform">            
+				<div class="form-subscribe">
+					<input type="email" required="" placeholder="Enter your e-mail here" name="email"><button class="submit" type="submit" name="subscribe">Start</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- /SUBSCRIBE BOX -->
+
+<!-- COPYRIGHTS -->
+<div class="copyrights-bg">
+	<div class="row copyrights">
+		<div class="grid_6 copyrights-col">
+			<p>All rights reserved &copy; 2014</p>
+			<p>Created by <a href="http://www.neighbourly.com">neighbourly.</a></p></div>
+		<div class="grid_6 copyrights-col">
+			<p class="copyright-icons">
+				<a href="https://www.neighbourly.com/about" class="icon-support"></a>
+				<a href="https://www.neighbourly.com/privacy" class="icon-lock"></a>
+				<a href="https://www.neighbourly.com/termsofuse" class="icon-quill"></a>
+			</p>
+		</div>
+	</div>
+</div>
+<!-- /COPYRIGHTS -->
+
+<!-- jQuery library -->
+<script src="js/jquery-1.8.2.min.js"></script>
+<!-- fitvids -->
+<script src="js/jquery.fitvids.js"></script>
+<!-- Twitter scripts -->
+<script src="twitter/jquery.tweet.js"></script>
+<script src="js/twitter-scripts.js"></script>
+<!-- bxSlider JS -->
+<script src="js/jquery.bxslider.js"></script>
+<!-- all JS scripts -->
+<script src="js/scripts.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50302684-3', 'neighbourly.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
