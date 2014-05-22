@@ -5,6 +5,7 @@
 	<link rel="shortcut icon" href="">
 	<meta name="description" content="">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -18,7 +19,7 @@
 });
 </script>
 	<!-- Mobile Specific Metas -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -38,14 +39,12 @@
 					<li><a href="javascript:void(0)" onClick="goToByScroll('team')">Team</a></li>
 					<li><a href="javascript:void(0)" onClick="goToByScroll('resources')">Resources</a></li>
 				</ul>
-				<ul>
-					<li><a class="button-start" href="javascript:void(0)" onClick="goToByScroll('free')">Start your free trial</a></li>
-				</ul>
 			</div>
 			<div class="menu-right">
-				<!-- <a Class="menu-social icon-dribbble" href="http://dribbble.com/nbryluk"></a> --!>
+				<!-- <a Class="menu-social icon-dribbble" href="http://dribbble.com/nbryluk"></a> -->
 				<a class="menu-social icon-facebook" href="https://www.facebook.com/nbrlyuk"></a>
 				<a class="menu-social icon-twitter" href="http://twitter.com/nbrlyuk"></a>
+				<a class="button-start" href="javascript:void(0)" onClick="goToByScroll('free')">Start your free trial</a></li>
 			</div>
 		</div>
 	</div>
@@ -84,20 +83,36 @@
 </div>
 <!-- /ICON BOXES -->
 
+<!-- TESTIMONIALS -->
+<div class="testimonials-bg" id="testimonials">
+	<h3>Happy Customers</h3>
+	<div class="row testimonials">
+		<div class="grid_4 testimonial">
+			<span class="bubble"><span>Neighbourly was great for us! We got the funding we needed for our project just by getting our community involved.</span></span>
+			<p>Nikki Tams<br><b>Churchill Pre School</b></p>
+		</div><!--
+		--><div class="grid_4 testimonial">
+			<span class="bubble"><span>Neighbourly is an excellent resource to help companies and voluntary organisations partner on the causes that matter most.</span></span>
+			<p>Ian Cantoni<br><b>The Hop Skip and Jump Foundation</b></p>
+		</div><!--
+		--><div class="grid_4 testimonial">
+			<span class="bubble"><span>Neighbourly is a fantastic opportunity for businesses to get involved with grass-routes community initiatives.</span></span>
+			<p>Mike Plows<br><b>B&NES</b></p>
+		</div>
+	</div>
+</div>
+<!-- /TESTIMONIALS -->
+
+
 <!-- TEXT + BUTTON -->
 <div class="text-button-bg">
 	<div class="row">
-		<div class="grid_9 text-button">
-			<p></p>
-		</div><div class="grid_13 text-button">
-			<a class="btn-text" href="#openModal">Start your free trial</a>
-		</div>
 	</div>
 </div>
 <!-- /TEXT + BUTTON -->
 
 <!-- MODAL -->
-<div id="openModal" class="modalDialog">
+<!-- <div id="openModal" class="modalDialog">
 	<div>
 		<a href="#close" title="Close" class="close">X</a>
 		<h2>Get started</h2>
@@ -107,8 +122,8 @@
 		<p>Description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 		<button class="submit" type="submit" name="subscribe">Send</button>
 	</div>
-	
-</div>
+
+</div> -->
 <!-- MODAL -->
 
 <!-- PRODUCT BOX #1 -->
@@ -116,8 +131,8 @@
 	<div class="row">
 		<div class="grid_6 product-box product-box-text" align="right">
 			<h3>Find your perfect project</h3>
-			<p>Find and follow projects where you can make the greatest difference.<br><br>
-			<b>neighbourly</b> ranks results and delivers projects catered to you and your business.</p>
+			<p>Find and follow projects where you can make the greatest difference.</p>
+			<p><b>neighbourly</b> ranks results and delivers projects catered to you and your business.</p>
 		</div><div class="grid_6 product-box">
 			<iframe src="http://player.vimeo.com/video/43457382?title=1&amp;byline=0&amp;portrait=0&amp;color=146285" width="560" height="320" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
@@ -130,9 +145,10 @@
 	<div class="row">
 		<div class="grid_6 product-box2">
 			<img src="images/product.png" title="">
-		</div><div class="grid_6 product-box2 product-box2-text">
+		</div><div class="grid_6 product-box product-box2-text">
 			<h3>Create stories that stick</h3>
-			<p>You own the outcome of project adoption. Work with the project to tell your story together and create <b> enduring content</b>.<br><br><b>neighbourly</b> lets you host all of your good stories in one place.</p>
+			<p>You own the outcome of project adoption. Work with the project to tell your story together and create <b> enduring content</b>.</p>
+			<p><b>neighbourly</b> lets you host all of your good stories in one place.</p>
 		</div>
 	</div>
 </div>
@@ -143,7 +159,8 @@
 	<div class="row">
 		<div class="grid_6 product-box product-box-text" align="right">
 			<h3>Get your staff involved</h3>
-			<p>Your staff can find local projects that mean something to them.<br><br>Empowered employees are engaged employees. Give them the power to choose projects that have greater meaning.</p>
+			<p>Your staff can find local projects that mean something to them.</p>
+				<p>Empowered employees are engaged employees. Give them the power to choose projects that have greater meaning.</p>
 		</div><div class="grid_6 product-box">
 			<img src="images/product-3.png" title="">
 		</div>
@@ -152,13 +169,14 @@
 <!-- /PRODUCT BOX #3 -->
 
 <!-- PRODUCT BOX #4 -->
-<div class="product-box-bg" id="improve">
+<div class="product-box2-bg" id="improve">
 	<div class="row">
 		<div class="grid_6 product-box">
 			<img src="images/product-2.png" title="">
 		</div><div class="grid_6 product-box product-box-text">
 			<h3>Discover the ROI of community engagement</h3>
-			<p>Our tools help you measure your neighbourlyness by providing insights on engagement, reputation and social sharing.<br><br>Get the data you need to do well and do more.</p>
+			<p>Our tools help you measure your neighbourlyness by providing insights on engagement, reputation and social sharing.</p>
+			<p>Get the data you need to do well and do more.</p>
 		</div>
 	</div>
 </div>
@@ -229,26 +247,6 @@
 	</div>
 </div>
 <!-- /CLIENTS -->
-
-<!-- TESTIMONIALS -->
-<div class="testimonials-bg" id="testimonials">
-	<h3>Happy Customers</h3>
-	<div class="row testimonials">
-		<div class="grid_4 testimonial">
-			<span class="bubble"><span>Neighbourly was great for us! We got the funding we needed for our project just by getting our community involved.</span></span>
-			<p>Nikki Tams<br><b>Churchill Pre School</b></p>
-		</div><!--
-		--><div class="grid_4 testimonial">
-			<span class="bubble"><span>Neighbourly is an excellent resource to help companies and voluntary organisations partner on the causes that matter most.</span></span>
-			<p>Ian Cantoni<br><b>The Hop Skip and Jump Foundation</b></p>
-		</div><!--
-		--><div class="grid_4 testimonial">
-			<span class="bubble"><span>Neighbourly is a fantastic opportunity for businesses to get involved with grass-routes community initiatives.</span></span>
-			<p>Mike Plows<br><b>B&NES</b></p>
-		</div>
-	</div>
-</div>
-<!-- /TESTIMONIALS -->
 
 <!-- TEAM -->
 <div class="team-bg" id="team">
@@ -343,6 +341,34 @@
 </div>
 <!-- /TEAM -->
 
+
+
+
+
+<!-- SUBSCRIBE BOX -->
+<div class="subscribe-bg" id="free">
+	<h3>Go ahead. <br>Do well by doing more.</h3>
+	<div class="row team">
+		<div class="row">
+			<div class="grid_13 text-button">
+				<a class="btn-text" href="#openModal">Start your free trial</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /SUBSCRIBE BOX -->
+
+<!-- TWITTER -->
+<div class="twitter-bg hide">
+	<h3><span class="icon-twitter"></span>Latest Tweets</h3>
+	<div class="row twitter">
+		<div id="ticker" class="grid_12 twitter-feed">
+
+		</div>
+	</div>
+</div>
+<!-- /TWITTER -->
+
 <!-- FOOTER -->
 <div class="footer-bg">
 	<div class="row footer">
@@ -367,32 +393,6 @@
 	</div>
 </div>
 <!-- /FOOTER -->
-
-<!-- TWITTER -->
-<div class="twitter-bg">
-	<h3><span class="icon-twitter"></span>Latest Tweets</h3>
-	<div class="row twitter">
-		<div id="ticker" class="grid_12 twitter-feed">
-			
-		</div>
-	</div>
-</div>
-<!-- /TWITTER -->
-
-<!-- SUBSCRIBE BOX -->
-<div class="subscribe-bg" id="free">
-	<h3>Go ahead. <br>Do well by doing more.</h3>
-	<div class="row team">
-		<div class="grid_8 offset_2">
-			<form action="" method="post" name="subscribeform">            
-				<div class="form-subscribe">
-					<input type="email" required="" placeholder="Enter your e-mail here" name="email"><button class="submit" type="submit" name="subscribe">Start</button>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-<!-- /SUBSCRIBE BOX -->
 
 <!-- COPYRIGHTS -->
 <div class="copyrights-bg">
