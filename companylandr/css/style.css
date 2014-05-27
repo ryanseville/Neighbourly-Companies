@@ -333,7 +333,7 @@ color: #5d5d5d;
 /***** Icon Boxes *****/
 .icon-boxes-bg {
 	background: rgb(255,255,255); /* Old browsers */
-	padding: 80px 0;
+	padding: 60px 0 80px 0;
 }
 .icon-boxes-bg.BACKUP {
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(209,240,243,1) 37%, rgba(255,255,255,1) 37%); /* FF3.6+ */
@@ -353,7 +353,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	margin-bottom: 20px;
 }
 .icon-box img {
-	max-height: 100px;
+	max-height: 150px;
 	width: auto;
 }
 .icon-box h4,
@@ -578,6 +578,7 @@ a.btn-text:hover {
 .testimonials-bg {
 	background-color: #1f9ed7;
 	padding: 60px 20px;
+	opacity: 0.8;
 }
 .testimonials-bg h3 {
 	color: #ffffff;
@@ -899,9 +900,25 @@ line-height: 130%;
 }
 
 /***** Price table *****/
-.table-1 { background-color: #73bf38; opacity: 0.7; }
+/*.table-1 { background-color: #73bf38; opacity: 0.5; }
 .table-2 { background-color: #0bb1dd; }
-.table-3 { background-color: #de2c42; opacity: 0.7; }
+.table-3 { background-color: #de2c42; opacity: 0.5; }
+.table-4 { background-color: #de2c42; opacity: 0.5; } */
+
+.table-1 { background-color: #0bb1dd; opacity: 0.5; }
+.table-2 { background-color: #73bf38; }
+.table-3 { background-color: #0bb1dd; opacity: 0.5; }
+.table-4 { background-color: #0bb1dd; opacity: 0.5; }
+
+
+.table.grid_3 { margin: 0; max-width: 100%; }
+@media only screen and (max-width: 959px) {
+	.table.grid_3 { width: 100%; }
+	.price_table .table {
+		margin-left: 0 !important;
+	}
+}
+
 
 .price_table-bg {
 	/*background-image:url('../images/price-bg.jpg');*/
@@ -927,15 +944,15 @@ line-height: 130%;
 	background-color: #ecf0f1;
 	margin-bottom: 20px;
 	margin-left: 20px;
-	max-width: 30%;
+	/*max-width: 30%;*/
 	max-height: 30%;
 
 }
 .price_table p {
 	color: #7f8c8d;
-	font-size: 16px;
-	line-height: 22px;
-	margin-bottom: 40px;
+	font-size: 18px;
+	line-height: 150%;
+	margin: 10px 20px 40px 20px;
 }
 .table h4 {
 	color: #fff;
@@ -977,17 +994,19 @@ line-height: 130%;
 	color: #fff;
 	font-size: 16px;
 	line-height: 1;
+	padding: 10px;
 }
 .table ul li {
 	padding-bottom: 15px;
 	padding-top: 15px;
+	font-size: 18px;
 }
 .table .action-button {
 	background-color: #ecf0f1;
 	padding: 20px;
 }
 .table .action-button a {
-	background-color: #5c6b7a;
+	background-color: #999;
 	color: #fff;
 	display: block;
 	padding: 20px;
@@ -995,6 +1014,9 @@ line-height: 130%;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
 	font-size: 20px;
+}
+.table .action-button a.primary {
+	background-color: #5c6b7a;
 }
 .table .action-button a:hover {
 	background-color: #34495e;
