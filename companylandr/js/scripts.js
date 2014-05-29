@@ -16,7 +16,11 @@
 		$(".typo-slider").show();
 		$(".product-box").fitVids();
 	});
-	$(window).load(function() {	
+	$(window).scroll(function() {
+    var x = $(this).scrollTop();
+    $('.bg-clouds').css('background-position', parseInt(-x / 3) + 'px' + ' 100%, center top');
+	});
+	$(window).load(function() {
 		// creating spans
 		$(".typo-slider .slide img").each(function() {
 			var slideImgTitle = $(this).attr('title');
@@ -26,13 +30,13 @@
 			var text_small = slideImgTitle.substring(pipe_pos+1,end_pos);
 			$(this).next().find("span").remove();
 			$(this).next().append('<span class="big-text">' + text_big + '</span><span class="small-text">' + text_small + '</span>').hide().fadeIn(1000);
-		});		
+		});
 		// dynamic top margin
 		function captionTop() {
 			var slideImgHeight = $(".typo-slider .slide > img").height();
 			var changedTop = (slideImgHeight/2)-40;
 			$(".typo-slider .slide .bx-caption").css('top', changedTop + 'px');
-		}		
+		}
 		$(window).resize(function() {
 			captionTop();
 		});
