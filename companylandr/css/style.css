@@ -84,11 +84,13 @@ display: table;
 .button-start {
 	float: right;
 	padding: 10px 16px;
-	background: #e74c3c;
-	margin: 12px 20px 0 0;
-	border-radius: 6px;
-	color: #fff;
-	font-weight: 600;
+background: #DF7731;
+margin: 12px 20px 0 0;
+border-radius: 6px;
+color: #fff;
+font-weight: 600;
+border-top: 2px solid #F7BF6C;
+border-bottom: 3px solid #B66132;
 }
 a.button-start:hover{
 	color: #ffffff;
@@ -421,7 +423,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 a.btn-text {
 	display: block;
 	padding: 18px 25px;
-	background-color: #e74c3c;
+	background-color: #DF7731;
 	font-size: 17px;
 	line-height: 30px;
 	font-weight: 700;
@@ -430,7 +432,10 @@ a.btn-text {
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
+	border-top: 2px solid #F7BF6C;
+	border-bottom: 3px solid #B66132;
 }
+
 a.btn-text:hover {
 	color: #ffffff;
 	background-color: #ec7063;
@@ -451,7 +456,7 @@ a.btn-text:hover {
 		height:100%;
 		background: url("../images/clouds.png") center top repeat;
 		background-repeat: repeat;
-		background-position: right top, left top, center top;
+		background-position: -2px 100%, 50% 0%;
 }
 
 .product-box-text {
@@ -879,10 +884,11 @@ line-height: 130%;
 /***** Subscribe *****/
 .subscribe-bg {
 	/*background: #fff url('../images/bg-subscribe.jpg') top center no-repeat;*/
-	background: #F7F1F0;
-	background-size: cover;
-	background-attachment: fixed;
+	background: url(../images/bg-signup.png) top center no-repeat #F7F1F0;
+	/*background-size: cover;*/
+	/*background-attachment: fixed;*/
 	padding: 80px 0;
+	/*min-height: 360px;*/
 }
 .subscribe-bg h3 {
 	color: #5d5d5d;

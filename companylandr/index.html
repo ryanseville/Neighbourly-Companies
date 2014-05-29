@@ -5,7 +5,6 @@
 	<link rel="shortcut icon" href="">
 	<meta name="description" content="">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -22,6 +21,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+
 </head>
 <body class="menu-static" id="home">
 
@@ -44,7 +46,7 @@
 				<!-- <a Class="menu-social icon-dribbble" href="http://dribbble.com/nbryluk"></a> -->
 				<a class="menu-social icon-facebook" href="https://www.facebook.com/nbrlyuk"></a>
 				<a class="menu-social icon-twitter" href="http://twitter.com/nbrlyuk"></a>
-				<a class="button-start" href="https://www.neighbourly.com/companies/request">Start your free trial</a></li>
+				<a class="button-start wow rubberBand" href="https://www.neighbourly.com/companies/request" data-wow-delay="0">Start your free trial</a></li>
 			</div>
 		</div>
 	</div>
@@ -53,9 +55,9 @@
 
 <!-- SLIDER -->
 <div class="video-bg" id="video header">
-	<div class="video header">
+	<div class="video header bg-clouds">
 		<div id="videoplayer">
-    <a href><span class="custom-image"><img src="images/video-still.png" title=""></a>
+    <a href><span class="custom-image"><img class="wow fadeInUp" src="images/video-still.png" title=""></a>
 </div>
 	</div>
 </div>
@@ -65,17 +67,17 @@
 <div class="icon-boxes-bg">
 	<div class="row">
 		<div class="grid_4 icon-box">
-			<a href="javascript:void(0)" onClick="goToByScroll('Tour')"><span class="custom-image"><img src="images/icon1.png" title=""></span></a>
+			<a href="javascript:void(0)" onClick="goToByScroll('Tour')"><span class="custom-image"><img src="images/icon1.png" title="" class=" fadeInUp" data-wow-delay="0" data-wow-offset="120"></span></a>
 			<h4><a href="javascript:void(0)" onClick="goToByScroll('Tour')">Search</a></h4>
 			<p>See where your help is needed</p>
 		</div>
 		<div class="grid_4 icon-box">
-			<a href="javascript:void(0)" onClick="goToByScroll('select')"><span class="custom-image"><img src="images/icon2.png" title=""></span></a>
+			<a href="javascript:void(0)" onClick="goToByScroll('select')"><span class="custom-image"><img src="images/icon2.png" title="" class=" fadeInUp" data-wow-delay="0" data-wow-offset="120"></span></a>
 			<h4><a href="javascript:void(0)" onClick="goToByScroll('select')">Back</a></h4>
 			<p>Select projects that mean something to your company</p>
 		</div>
 		<div class="grid_4 icon-box">
-			<a href="javascript:void(0)" onClick="goToByScroll('improve')"><span class="custom-image"><img src="images/icon3.png" title=""></span></a>
+			<a href="javascript:void(0)" onClick="goToByScroll('improve')"><span class="custom-image"><img src="images/icon3.png" title="" class=" fadeInUp" data-wow-delay="0" data-wow-offset="120"></span></a>
 			<h4><a href="javascript:void(0)" onClick="goToByScroll('improve')">Grow</a></h4>
 			<p>Make a measurable impact on your business</p>
 		</div>
@@ -133,7 +135,7 @@
 			<p>Find and follow projects where you can make the greatest difference.</p>
 			<p><b>neighbourly</b> ranks results and delivers projects catered to you and your business.</p>
 		</div><div class="grid_6 product-box">
-			<img src="images/product-0.png" style="max-width: 90%;">
+			<img src="images/product-0.png" style="max-width: 90%;" class="wow fadeInUp" data-wow-delay="0" data-wow-offset="120">
 			<!-- <iframe src="http://player.vimeo.com/video/43457382?title=1&amp;byline=0&amp;portrait=0&amp;color=146285" width="560" height="320" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 		</div>
 	</div>
@@ -144,7 +146,7 @@
 <div class="product-box2-bg" id="select">
 	<div class="row">
 		<div class="grid_6 product-box2">
-			<img src="images/product.png" title="">
+			<img src="images/product.png" title="" class="wow fadeInUp" data-wow-delay="0" data-wow-offset="120">
 		</div><div class="grid_6 product-box product-box2-text">
 			<h3>Create stories that stick</h3>
 			<p>You own the outcome of project adoption. Work with the project to tell your story together and create <b> enduring content</b>.</p>
@@ -162,7 +164,7 @@
 			<p>Your staff can find local projects that mean something to them.</p>
 				<p>Empowered employees are engaged employees. Give them the power to choose projects that have greater meaning.</p>
 		</div><div class="grid_6 product-box">
-			<img src="images/product-3.png" title="">
+			<img src="images/product-3.png" title="" class="wow fadeInUp" data-wow-delay="0" data-wow-offset="120">
 		</div>
 	</div>
 </div>
@@ -172,7 +174,7 @@
 <div class="product-box2-bg" id="improve">
 	<div class="row">
 		<div class="grid_6 product-box">
-			<img src="images/product-2.png" title="">
+			<img src="images/product-2.png" title="" class="wow fadeInUp" data-wow-delay="0" data-wow-offset="120">
 		</div><div class="grid_6 product-box product-box-text">
 			<h3>Discover the ROI of community engagement</h3>
 			<p>Our tools help you measure your neighbourlyness by providing insights on engagement, reputation and social sharing.</p>
@@ -374,7 +376,7 @@
 	<div class="row team">
 		<div class="row">
 			<div class="grid_13 text-button">
-				<a class="btn-text" href="https://www.neighbourly.com/companies/request">Start your free trial</a>
+				<a class="btn-text wow rubberBand" href="https://www.neighbourly.com/companies/request">Start your free trial</a>
 			</div>
 		</div>
 	</div>
@@ -432,6 +434,11 @@
 <script src="js/twitter-scripts.js"></script>
 <!-- bxSlider JS -->
 <script src="js/jquery.bxslider.js"></script>
+<!-- WOW! Animations -->
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
 <!-- all JS scripts -->
 <script src="js/scripts.js"></script>
 <script>

@@ -18,7 +18,7 @@
 	});
 	$(window).scroll(function() {
     var x = $(this).scrollTop();
-    $('.bg-clouds').css('background-position', parseInt(-x / 3) + 'px' + ' 100%, center top');
+    $('.bg-clouds').css('background-position', parseInt(-x) + 'px' + ' 100%');
 	});
 	$(window).load(function() {
 		// creating spans
