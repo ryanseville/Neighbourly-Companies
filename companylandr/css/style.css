@@ -984,7 +984,6 @@ line-height: 130%;
 	margin-left: 20px;
 	/*max-width: 30%;*/
 	max-height: 30%;
-
 }
 .price_table p {
 	color: #7f8c8d;
@@ -1021,8 +1020,17 @@ line-height: 130%;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #5c6b7a;
-	margin-bottom: 20px;
 }
+.table .option-2 {
+	font-size: 18px;
+	font-weight: 300;
+	color: #5c6b7a;
+	margin-bottom: 20px;
+	}
+.table .option-2 a.icon{
+	color: #5c6b7a;
+	margin-bottom: 20px;
+	}
 .table p {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -1055,6 +1063,9 @@ line-height: 130%;
 }
 .table .action-button a.primary {
 	background-color: #5c6b7a;
+}
+.table .action-button a.coming {
+	opacity: 0.5;
 }
 .table .action-button a:hover {
 	background-color: #34495e;
